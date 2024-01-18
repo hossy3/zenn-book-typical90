@@ -124,3 +124,10 @@ https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/
 ### Vec (RE)
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/001_vec_re.rs
 
+Range との違いは `PartitionPoint` とこちらです:
+
+```diff rust
+-   let result = (1..=l).partition_point(|i| f(i, k, &v)) - 1;
++   let v0: Vec<usize> = (1..=l).collect();
++   let result = v0.partition_point(|&i| f(i, k, &v));
+```
