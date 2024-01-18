@@ -5,4 +5,5 @@ published: false
 price: 0
 chapters:
   - first
+  - problems
   - typical90_001
