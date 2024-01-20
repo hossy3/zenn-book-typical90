@@ -6,11 +6,11 @@ title: "問題一覧"
 
 |問題|アルゴリズム|Tips|
 |---|---|---|
-|[001 - Yokan Party（★4）](./typical90_001)|二分探索, `partition_point`|単体テスト|
-|002 - Encyclopedia of Parentheses（★3）|||
-|003 - Longest Circular Road（★4）|||
-|004 - Cross Sum（★2）|||
-|005 - Restricted Digits（★7）|||
+|[001 - Yokan Party（★4）](./typical90_001)|二分探索, `partition_point()`|スニペット, 単体テスト|
+|[002 - Encyclopedia of Parentheses（★3）](./typical90_002)|`itertools::combinations()`, bit全探索, 再帰||
+|[003 - Longest Circular Road（★4）](./typical90_003)|||
+|[004 - Cross Sum（★2）](./typical90_004)|||
+|[005 - Restricted Digits（★7）](./typical90_005)|||
 |006 - Smallest Subsequence（★5）|||
 |007 - CP Classes（★3）|||
 |008 - AtCounter（★4）|||
@@ -98,10 +98,6 @@ title: "問題一覧"
 |090 - Tenkei90's Last Problem（★7）|||
 
 <!-- 
-|[002 - Encyclopedia of Parentheses（★3）](./typical90_002)|||
-|[003 - Longest Circular Road（★4）](./typical90_003)|||
-|[004 - Cross Sum（★2）](./typical90_004)|||
-|[005 - Restricted Digits（★7）](./typical90_005)|||
 |[006 - Smallest Subsequence（★5）](./typical90_006)|||
 |[007 - CP Classes（★3）](./typical90_007)|||
 |[008 - AtCounter（★4）](./typical90_008)|||
