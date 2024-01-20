@@ -7,7 +7,7 @@ title: "001 - Yokan Party（★4）"
 
 # アルゴリズム
 
-## 二分探索 (partition_point)
+## 二分探索 (partition_point())
 
 |1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -72,7 +72,23 @@ impl<T: std::ops::RangeBounds<usize>> PartitionPoint for T {
 }
 ```
 
+コメントを書いておくと、次回呼び出すときに使い方が分かって安心です。
+
+![](https://storage.googleapis.com/zenn-user-upload/a2ee606cdcd7-20240120.png)
+
+
 # Tips
+
+## スニペット
+
+![](https://storage.googleapis.com/zenn-user-upload/ac5094980803-20240120.png)
+
+よく使うコードは、コードスニペットとしてワークスペースなどに登録しておくと、次から簡単に貼り付けられます。
+
+https://github.com/hossy3/atcoder-solutions/tree/main/atcoder/typical90/.vscode
+
+本記事で作った VS Code 用のスニペットを、こちらにまとめる予定です。
+
 
 ## 単体テスト
 
@@ -116,12 +132,12 @@ mod tests {
 rust-analyzer を入れた開発環境で `tmod` (test module) と入力すると、モジュールのテストコードのテンプレートが入ります。おすすめです。
 
 
-## 実装例
+# 実装例
 
-### Range
+## Range
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/001_range.rs
 
-### Vec (RE)
+## Vec (RE)
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/001_vec_re.rs
 
 Range との違いは `PartitionPoint` とこちらです:
