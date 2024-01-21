@@ -8,8 +8,8 @@ title: "問題一覧"
 |---|---|---|
 |[001 - Yokan Party（★4）](./typical90_001)|二分探索, `partition_point()`|スニペット, 単体テスト|
 |[002 - Encyclopedia of Parentheses（★3）](./typical90_002)|`itertools::combinations()`, bit全探索, 再帰||
-|[003 - Longest Circular Road（★4）](./typical90_003)|||
-|[004 - Cross Sum（★2）](./typical90_004)|||
+|[003 - Longest Circular Road（★4）](./typical90_003)|dijkstra, 01-bfs, `pathfinding`|Usize1|
+|[004 - Cross Sum（★2）](./typical90_004)|前処理|`itertools::join()`|
 |[005 - Restricted Digits（★7）](./typical90_005)|||
 |006 - Smallest Subsequence（★5）|||
 |007 - CP Classes（★3）|||
