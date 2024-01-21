@@ -134,16 +134,16 @@ rust-analyzer を入れた開発環境で `tmod` (test module) と入力する�
 
 # 実装例
 
-## Range
-https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/001_range.rs
-
 ## Vec (RE)
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/001_vec_re.rs
 
-Range との違いは `PartitionPoint` とこちらです:
+## Range
+https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/001_range.rs
+
+Range 用の `PartitionPoint` を追加し、`partition_point()` 呼び出しを差し替えました。
 
 ```diff rust
--   let result = (1..=l).partition_point(|i| f(i, k, &v)) - 1;
-+   let v0: Vec<usize> = (1..=l).collect();
-+   let result = v0.partition_point(|&i| f(i, k, &v));
+-   let v0: Vec<usize> = (1..=l).collect();
+-   let result = v0.partition_point(|&i| f(i, k, &v));
++   let result = (1..=l).partition_point(|i| f(i, k, &v)) - 1;
 ```
