@@ -11,10 +11,10 @@ title: "問題一覧"
 |[003 - Longest Circular Road（★4）](./typical90_003)|dijkstra, 01-bfs, `pathfinding`|Usize1|
 |[004 - Cross Sum（★2）](./typical90_004)|前処理|`itertools::join()`|
 |[005 - Restricted Digits（★7）](./typical90_005)|`modint`, 行列, 繰り返し二乗法, ダブリング||
-|006 - Smallest Subsequence（★5）|||
-|007 - CP Classes（★3）|||
-|008 - AtCounter（★4）|||
-|009 - Three Point Angle（★6）|||
+|[006 - Smallest Subsequence（★5）](./typical90_006)|二分探索, `BTreeSet::range()`|`let else`|
+|[007 - CP Classes（★3）](./typical90_007)|二分探索, `Vec::binary_search()`|シャドーイング|
+|[008 - AtCounter（★4）](./typical90_008)|DP|`proconio::Chars`, `Iterator::enumerate()`|
+|[009 - Three Point Angle（★6）](./typical90_009)|尺取り法, `partition_point()`, 実数の比較||
 |010 - Score Sum Queries（★2）|||
 |011 - Gravy Jobs（★6）|||
 |012 - Red Painting（★4）|||
