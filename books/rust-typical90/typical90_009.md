@@ -76,11 +76,15 @@ fn calc_score(degs: &[f64]) -> f64 {
 let score = (0..n).map(|i| f(i, &xy)).max().unwrap();
 ```
 
-しかし実数ではこう書けません。 Rust の実数は `Ord` 全順序 Trait を満たしていないためです。
+しかし実数ではこう書けません。 Rust の実数は `Ord` 全順序 Trait を満たしていないためです。詳しくは AtCoder で使用できるクレートの `ordered-float` 説明をどうぞ。
+
+* [2020 Update · rust\-lang\-ja/atcoder\-rust\-resources Wiki > ordered-float](https://github.com/rust-lang-ja/atcoder-rust-resources/wiki/2020-Update#ordered-float)
+
+
+私は代わりに、個々に比較した結果を `fold()` でまとめています。
 
 * [Iterator in std::iter \- Rust](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.fold)
 
-私は代わりに `fold()` を使っています。
 
 ```rust
 let score = (0..n).fold(0f64, |acc, i| acc.max(f(i, &xy)));
