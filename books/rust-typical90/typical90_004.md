@@ -74,7 +74,7 @@ let result = v.iter().join(" ");
 println!("{result}"); // 28 28 25 26
 ```
 
-## 実装例
+# 実装例
 
-### 前処理
+## 前処理
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/004_grid.rs

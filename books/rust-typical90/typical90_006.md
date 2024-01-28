@@ -132,10 +132,10 @@ let Some(i) = set.range(l..r).next() else {
 let else` 構文が rustfmt フォーマッターの対象になったのは Rust 1.72 です。AtCoder 2023年版の Rust 1.70 ではまだ使えません。次回更新に期待です。
 
 
-## 実装例
+# 実装例
 
-### 二分探索
+## 二分探索
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/006_range.rs
 
-### 次の候補をメモ
+## 次の候補をメモ
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/006_greedy.rs

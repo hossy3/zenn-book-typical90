@@ -206,10 +206,10 @@ fn mat_pow(matrix: &Vec<Vec<Mint>>, mut exp: usize) -> Vec<Vec<Mint>> {
 (力不足で解説をうまく書けません。公式解説スライドをどうぞ。後日追記するかもしれません。)
 
 
-## 実装例
+# 実装例
 
-### 行列のべき乗 (TLE)
+## 行列のべき乗 (TLE)
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/005_mat_pow_tle.rs
 
-### DP のダブリング
+## DP のダブリング
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/005_doubling.rs

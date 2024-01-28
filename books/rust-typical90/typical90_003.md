@@ -125,10 +125,10 @@ input!{ a: Usize1, b: Usize1 } // a = 0, b = 1
 あとから 1引けば良い言ってしまえばそれまでですが、どこで 1-indexed と 0-indexed を切り替えるかが揃っていないとコードを読み書きするときに混乱します。基本的に Usize1 を使って問題読み込み時に寄せる、とするのは分かりやすいと思います。
 
 
-## 実装例
+# 実装例
 
-### dijkstra (01-BFS)
+## dijkstra (01-BFS)
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/003_dijkstra.rs
 
-### dijkstra (pathfinding)
+## dijkstra (pathfinding)
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/003_pathfinding.rs
