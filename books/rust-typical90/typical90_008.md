@@ -73,7 +73,9 @@ for &c in &s {
 }
 ```
 
-## iter().enumerate()
+## Iterator::enumerate()
+
+* [Iterator > enumerate()](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.enumerate)
 
 ループを回す際に、個々の要素に加えてインデックスも欲しいときに、私は良く `iter().enumerate()` します。
 
