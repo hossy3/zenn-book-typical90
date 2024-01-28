@@ -5,7 +5,7 @@ title: "007 - CP Classes（★3）"
 [007 \- CP Classes（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_g)
 
 # アルゴリズム
-## 二分探索 (binary_search)
+## 二分探索 (Vec::binary_search())
 
 クラスのレーティングが `v = vec![10, 20, 30]` の場合、生徒のレーティングに対する不満度を考えます。
 
@@ -50,5 +50,5 @@ for b in b {
 
 # 実装例
 
-## 二分探索 (binary_search)
+## 二分探索 (Vec::binary_search())
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/007_binary_search.rs
