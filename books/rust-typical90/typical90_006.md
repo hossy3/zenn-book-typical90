@@ -66,7 +66,8 @@ if let Some(i) = set.range(l..r).next() {
 }
 ```
 
-26個の set に、a から順に範囲内に
+26個の set に、a から順に範囲内に問い合わせる感じです。
+
 
 ## 次の候補をメモ
 
@@ -101,6 +102,34 @@ if let Some(i) = set.range(l..r).next() {
 |t|1||1||||||
 
 1つ採用するたびに次の候補を更新する、という方法もあります。同じ場所を繰り返し調べないため、より高速です。
+
+
+# Tips
+
+## let else
+
+* [let\-else \- Rust By Example 日本語版](https://doc.rust-jp.rs/rust-by-example-ja/flow_control/let_else.html)
+
+Rust 1.65 で増えた構文です。
+
+```rust
+if let Some(i) = set.range(l..r).next() {
+    // ...
+}
+```
+
+のように書くとインデントが 1つ増えますが、
+
+```rust
+let Some(i) = set.range(l..r).next() else {
+    continue;
+}
+// ...
+```
+
+のように書くとインデントが増えません。インデントが深くなるとかっこの対応関係を辿りづらくなりますので、おすすめです。
+
+let else` 構文が rustfmt フォーマッターの対象になったのは Rust 1.72 です。AtCoder 2023年版の Rust 1.70 ではまだ使えません。次回更新に期待です。
 
 
 ## 実装例
