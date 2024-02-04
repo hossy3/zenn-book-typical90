@@ -12,13 +12,13 @@ title: "問題一覧"
 |[004 - Cross Sum（★2）](./typical90_004)|前処理|`itertools::join()`|
 |[005 - Restricted Digits（★7）](./typical90_005)|`modint`, 行列, 繰り返し二乗法, ダブリング||
 |[006 - Smallest Subsequence（★5）](./typical90_006)|二分探索, `BTreeSet::range()`|`let else`|
-|[007 - CP Classes（★3）](./typical90_007)|二分探索, `Vec::binary_search()`|シャドーイング|
+|[007 - CP Classes（★3）](./typical90_007)|二分探索, `Vec::binary_search()`|シャドーイング, `saturating_sub()`|
 |[008 - AtCounter（★4）](./typical90_008)|DP|`proconio::Chars`, `Iterator::enumerate()`|
 |[009 - Three Point Angle（★6）](./typical90_009)|尺取り法, `partition_point()`, 実数の比較||
-|010 - Score Sum Queries（★2）|||
-|011 - Gravy Jobs（★6）|||
-|012 - Red Painting（★4）|||
-|013 - Passing（★5）|||
+|[010 - Score Sum Queries（★2）](./typical90_010)|累積和|unreachable!|
+|[011 - Gravy Jobs（★6）](./typical90_011)|DP, 履歴数を減らす||
+|[012 - Red Painting（★4）](./typical90_012)|Disjoint Set (Union Find)|余白|
+|[013 - Passing（★5）](./typical90_013)|dijkstra, `pathfinding`||
 |014 - We Used to Sing a Song Together（★3）|||
 |015 - Don't be too close（★6）|||
 |016 - Minimum Coins（★3）|||
