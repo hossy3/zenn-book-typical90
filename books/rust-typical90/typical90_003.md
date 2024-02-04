@@ -80,8 +80,8 @@ fn shortest_all_ungraph(s: usize, graph: &[Vec<usize>]) -> Vec<Option<usize>> {
 これを使い、ノード0 からもっとも離れているノード番号 `index` を求めるには、次のようにします。 `itertools::position_max()` を使います。
 
 ```rust
-    let scores = shortest_all_ungraph(0, &graph);
-    let index = scores.iter().position_max().unwrap();
+let scores = shortest_all_ungraph(0, &graph);
+let index = scores.iter().position_max().unwrap();
 ```
 
 
@@ -92,12 +92,12 @@ fn shortest_all_ungraph(s: usize, graph: &[Vec<usize>]) -> Vec<Option<usize>> {
 pathfinding クレートに、このダイクストラ法を行う関数が用意されています。 (到達可能なノード, (親ノード, コスト)) という対応の `HashMap` を返します。すべての辺にコスト1 を入れて流します。
 
 ```rust
-    let reachables = dijkstra_all(&0, |&i| graph[i].iter().map(|&j| (j, 1usize)));
-    let index = *reachables
-        .iter()
-        .max_by_key(|(_, &(_, step))| step)
-        .unwrap()
-        .0;
+let reachables = dijkstra_all(&0, |&i| graph[i].iter().map(|&j| (j, 1usize)));
+let index = *reachables
+    .iter()
+    .max_by_key(|(_, &(_, step))| step)
+    .unwrap()
+    .0;
 ```
 
 # Tips
