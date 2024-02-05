@@ -17,7 +17,7 @@ title: "問題一覧"
 |[009 - Three Point Angle（★6）](./typical90_009)|尺取り法, `partition_point()`, 実数の比較||
 |[010 - Score Sum Queries（★2）](./typical90_010)|累積和|unreachable!|
 |[011 - Gravy Jobs（★6）](./typical90_011)|DP, 履歴数を減らす||
-|[012 - Red Painting（★4）](./typical90_012)|Disjoint Set (Union Find)|余白|
+|[012 - Red Painting（★4）](./typical90_012)|Disjoint Set (Union Find)|クロージャ, 上下左右を辿る, 余白|
 |[013 - Passing（★5）](./typical90_013)|dijkstra, `pathfinding`||
 |014 - We Used to Sing a Song Together（★3）|||
 |015 - Don't be too close（★6）|||
