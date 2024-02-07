@@ -6,7 +6,7 @@ title: "011 - Gravy Jobs（★6）"
 
 # アルゴリズム
 
-## 問題
+## 方針
 
 ```mermaid
 gantt

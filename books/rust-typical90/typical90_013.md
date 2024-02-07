@@ -6,7 +6,7 @@ title: "013 - Passing（★5）"
 
 # アルゴリズム
 
-## 問題
+## 方針
 
 [003 - Longest Circular Road（★4）](./typical90_003) の全ノード版です。
 
