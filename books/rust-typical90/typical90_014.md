@@ -32,7 +32,7 @@ a.sort();
 
 ## 合計値を求める
 
-TODO: リンク 
+* [Iterator in std::iter \- Rust > sum()](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.sum)
 
 `iter::sum()` で合計値を求められます。
 
