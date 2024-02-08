@@ -82,7 +82,7 @@ title: "問題一覧"
 |074 - ABC String 2（★6）|||
 |075 - Magic For Balls（★3）|||
 |076 - Cake Cut（★3）|||
-|077 - Planes on a 2D Plane（★7）	1|||
+|077 - Planes on a 2D Plane（★7）|||
 |078 - Easy Graph Problem（★2）|||
 |079 - Two by Two（★3）|||
 |080 - Let's Share Bit（★6）|||
