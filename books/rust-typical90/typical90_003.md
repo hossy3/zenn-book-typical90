@@ -54,7 +54,7 @@ fn build_ungraph(n: usize, uv: &[(usize, usize)]) -> Vec<Vec<usize>> {
 辺の重みがすべて同じなら、両端キュー `VecDeque` 構造を使うのが簡単です。辺の重さを考慮した重み付きキュー `BinaryHeap` でも良いです。
 
 ```rust
-fn shortest_all_ungraph(s: usize, graph: &[Vec<usize>]) -> Vec<Option<usize>> {
+fn dijkstra_all(s: usize, graph: &[Vec<usize>]) -> Vec<Option<usize>> {
     let n = graph.len();
     let mut v = vec![None; n];
     let mut queue = VecDeque::new();
@@ -80,7 +80,7 @@ fn shortest_all_ungraph(s: usize, graph: &[Vec<usize>]) -> Vec<Option<usize>> {
 これを使い、ノード0 からもっとも離れているノード番号 `index` を求めるには、次のようにします。 `itertools::position_max()` を使います。
 
 ```rust
-let scores = shortest_all_ungraph(0, &graph);
+let scores = dijkstra_all(0, &graph);
 let index = scores.iter().position_max().unwrap();
 ```
 

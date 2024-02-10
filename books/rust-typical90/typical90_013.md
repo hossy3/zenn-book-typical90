@@ -69,7 +69,7 @@ fn build_ungraph_with_cost(n: usize, uvc: &[(usize, usize, usize)]) -> Vec<Vec<(
 辺に重みがあるときは、重み付きキュー `BinaryHeap` で組み立てます。 両端キュー `VecDeque` は重みがあるときには使えません。
 
 ```rust
-fn shortest_all_ungraph_with_cost(s: usize, graph: &[Vec<(usize, usize)>]) -> Vec<Option<usize>> {
+fn dijkstra_all_with_cost(s: usize, graph: &[Vec<(usize, usize)>]) -> Vec<Option<usize>> {
     let n = graph.len();
     let mut v = vec![None; n];
     let mut heap = BinaryHeap::<(Reverse<usize>, usize)>::new();
@@ -102,8 +102,8 @@ fn shortest_all_ungraph_with_cost(s: usize, graph: &[Vec<(usize, usize)>]) -> Ve
 すべての街についての時間を求められました。街 `i` を通る時間の最小値は次のように出力できます。
 
 ```rust
-let s0 = shortest_all_ungraph_with_cost(0, &graph);
-let sn = shortest_all_ungraph_with_cost(n - 1, &graph);
+let s0 = dijkstra_all_with_cost(0, &graph);
+let sn = dijkstra_all_with_cost(n - 1, &graph);
 
 for i in 0..n {
     let result = s0[i].unwrap() + sn[i].unwrap();
