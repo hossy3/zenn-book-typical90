@@ -19,16 +19,16 @@ title: "問題一覧"
 |[011 - Gravy Jobs（★6）](./typical90_011)|DP, 履歴数を減らす||
 |[012 - Red Painting（★4）](./typical90_012)|Disjoint Set (Union Find)|クロージャ, 上下左右を辿る, 余白|
 |[013 - Passing（★5）](./typical90_013)|dijkstra, `pathfinding`||
-|014 - We Used to Sing a Song Together（★3）|||
-|015 - Don't be too close（★6）|||
-|016 - Minimum Coins（★3）|||
-|017 - Crossing Segments（★7）|||
-|018 - Statue of Chokudai（★3）|||
-|019 - Pick Two（★6）|||
-|020 - Log Inequality（★3）|||
-|021 - Come Back in One Piece（★5）|||
-|022 - Cubic Cake（★2）|||
-|023 - Avoid War（★7）|||
+|[014 - We Used to Sing a Song Together（★3）](./typical90_014)|ソート, 合計値||
+|[015 - Don't be too close（★6）](./typical90_015)|組み合わせ, 階乗, 階乗の逆数||
+|[016 - Minimum Coins（★3）](./typical90_016)|全探索||
+|[017 - Crossing Segments（★7）](./typical90_017)|遅延セグメント木, セグメント木, フェニック木||
+|[018 - Statue of Chokudai（★3）](./typical90_018)|`atan2()`|実数のテスト|
+|[019 - Pick Two（★6）](./typical90_019)|区間DP||
+|[020 - Log Inequality（★3）](./typical90_020)|`pow()`||
+|[021 - Come Back in One Piece（★5）](./typical90_021)|強連結成分, SCC, `pathfinding`||
+|[022 - Cubic Cake（★2）](./typical90_022)|最大公約数, GCD||
+|[023 - Avoid War（★7）](./typical90_023)|2次元DP||
 |024 - Select +／- One（★2）|||
 |025 - Digit Product Equation（★7）|||
 |026 - Independent Set on a Tree（★4）|||
