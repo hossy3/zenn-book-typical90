@@ -37,4 +37,4 @@ fn gcd(a: usize, b: usize) -> usize {
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/022_gcd_num_integer.rs
 
 ## ユークリッドの互除法
-https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/022_gcd_num.rs
+https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/022_gcd.rs
