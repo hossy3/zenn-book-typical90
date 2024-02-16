@@ -60,7 +60,7 @@ while let Some((a, c)) = stack.pop() {
         continue;
     }
     s.insert(a);
-    for x in v[a].iter() {
+    for x in &v[a] {
         stack.push((*x, 1 - c));
     }
 }
@@ -115,11 +115,28 @@ end
 
 ```rust
 let mut uf = Dsu::new(n * 2);
-for &(a, b) in ab.iter() {
+for &(a, b) in &ab {
     uf.merge(a, n + b);
     uf.merge(n + a, b);
 }
 ```
+
+# Tips
+
+## テスト省略
+
+* [cargo\-compete/README\-ja\.md at master · qryxip/cargo\-compete](https://github.com/qryxip/cargo-compete/blob/master/README-ja.md)
+
+cargo-compete でテスト・提出している人向けです。
+
+この問題のように複数の正解があると、 `cargo compete test 026` で正解のはずなのに不正解と返されることがあります。WEB に載っている正解例のみ受け付けるためです。 `submit` もテストに失敗するからとコード提出できません。
+
+このような場合は、目で確認して良さそうなら  `cargo compete submit 026 --no-test` のように `--no-test` オプションを立てて提出できます。
+
+`cargo compete submit --help` を見るとほかにもオプションがあります。テストが手元でタイムアウトするときに `--release` を付けると高速になる、というのは使うことがあります。
+
+`cargo compete new typical90` したときに自動的に作られる想定入出力結果ファイル 026.yml を、手で書き換えるという方法もあります。
+
 
 # 実装例
 
