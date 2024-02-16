@@ -44,10 +44,11 @@ for (i, s) in s.iter().enumerate() {
 
 文字の配列で重複をはじく `HashSet<&Vec<char>>` でも良いです。コードが 1行変わります。
 
-```rust
+```diff rust
 input! {
     n: usize,
-    s: [Chars; n],
+-   s: [String; n],
++   s: [Chars; n],
 }
 ```
 
