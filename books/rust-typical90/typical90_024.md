@@ -57,5 +57,5 @@ https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/
 ## iter::zip()
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/024_zip.rs
 
-## iter::zip() + num_integer::is_even() 
+## iter::zip() + num_integer::is_even()
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/024_zip_even.rs

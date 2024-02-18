@@ -35,7 +35,7 @@ title: "015 - Don't be too close（★6）"
 
 $_nC_r = \dfrac{1 \times 2 \times ... \times r}{n \times (n-1)\times ... \times ((n-r+1))}$
 
-そのまま実装するとこのようになります。余りは `modint` を使います。 
+そのまま実装するとこのようになります。余りは `modint` を使います。
 
 ```rust
 fn combination(n: usize, r: usize) -> Mint {

@@ -115,7 +115,7 @@ let index = *reachables
 ```
 
 ```rust
-input!{ a: usize, b: usize } // a = 1, b = 2 
+input!{ a: usize, b: usize } // a = 1, b = 2
 ```
 
 ```rust

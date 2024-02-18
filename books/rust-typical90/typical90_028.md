@@ -7,7 +7,7 @@ title: "028 - Cluttered Paper（★4）"
 
 # アルゴリズム
 
-## 二次元いもす法 
+## 二次元いもす法
 
 * [いもす法 \- いもす研 \(imos laboratory\)](https://imoz.jp/algorithms/imos_method.html)
 

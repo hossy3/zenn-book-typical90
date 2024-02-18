@@ -160,7 +160,7 @@ fn mat_mul(matrix0: &[Vec<Mint>], matrix1: &[Vec<Mint>]) -> Vec<Vec<Mint>> {
 
 行列 M に対して、べき乗 $M^10$ を計算したいとします。次の方法があります。
 
-* 9回かけ算: $M \times M \times M \times M \times M \times M \times M \times M \times M \times M$ 
+* 9回かけ算: $M \times M \times M \times M \times M \times M \times M \times M \times M \times M$
 * 2の累乗単位でまとめる: $((M^2)^2 \times M)^2$
 
 後者のような計算は `pow()` を提供している各ライブラリーでは行っているはずです。たとえば ac-library-rs の modint では次の実装になっています。

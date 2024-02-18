@@ -51,7 +51,7 @@ lr.sort_by_key(|&(l, r)| (r, Reverse(l)));
 
 非負整数型と整数型をあまり区別しない言語ならタプルを `(r, -l)` と書けば良いところです。Rust では `usize` に負数を入れると panic します。
 
-`Reverse` 型を持ち出さなくても、`(r, l.wrapping_neg())` でも良いはずです。 
+`Reverse` 型を持ち出さなくても、`(r, l.wrapping_neg())` でも良いはずです。
 
 
 ## 遅延セグメント木

@@ -103,7 +103,7 @@ let x0 = a[(i as i64 - 1).max(0) as usize];
 
 * [usize \- Rust > saturating_sub()](https://doc.rust-lang.org/std/primitive.usize.html#method.saturating_sub)
 
-飽和する引き算を使うと、`as` よりスッキリ書けます。 
+飽和する引き算を使うと、`as` よりスッキリ書けます。
 
 ```rust
 let x0 = a[i.saturating_sub(1)];
