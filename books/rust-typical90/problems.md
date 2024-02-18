@@ -29,13 +29,13 @@ title: "問題一覧"
 |[021 - Come Back in One Piece（★5）](./typical90_021)|強連結成分, SCC, `pathfinding`||
 |[022 - Cubic Cake（★2）](./typical90_022)|最大公約数, GCD||
 |[023 - Avoid War（★7）](./typical90_023)|2次元DP||
-|024 - Select +／- One（★2）|||
-|025 - Digit Product Equation（★7）|||
-|026 - Independent Set on a Tree（★4）|||
-|027 - Sign Up Requests （★2）|||
-|028 - Cluttered Paper（★4）|||
-|029 - Long Bricks（★5）|||
-|030 - K Factors（★5）|||
+|[024 - Select +／- One（★2）](./typical90_024)|偶奇性|`iter::zip()`, `is_even()`|
+|[025 - Digit Product Equation（★7）](./typical90_025)|重複組み合わせ, `combinations_with_replacement()`, 再帰||
+|[026 - Independent Set on a Tree（★4）](./typical90_026)|二部グラフ, DFS, BFS, Disjoint Set||
+|[027 - Sign Up Requests （★2）](./typical90_027)|集合, `HashSet`, `BTreeSet`||
+|[028 - Cluttered Paper（★4）](./typical90_028)|二次元いもす法||
+|[029 - Long Bricks（★5）](./typical90_029)|遅延セグメント木, `BTreeMap`||
+|[030 - K Factors（★5）](./typical90_030)|素因数列挙|`Vec<u8>` メモリを減らす|
 |031 - VS AtCoder（★6）|||
 |032 - AtCoder Ekiden（★3）|||
 |033 - Not Too Bright（★2）|||
