@@ -40,6 +40,8 @@ end
 
 2つのグループに対応した 2つの `BTreeSet` を用意し、深さ優先探索や幅優先探索で埋めていくイメージです:
 
+深さ優先探索 (DFS)
+
 |stack|(i, c)|i の隣|Group 0|Group 1|
 |---|---|---|---|---|
 |[(1, 0)]|||[]|[]|
@@ -65,6 +67,24 @@ while let Some((a, c)) = stack.pop() {
     }
 }
 ```
+
+幅優先探索 (BFS)
+
+```rust
+let mut queue = VecDeque::new();
+queue.push_back((ab[0].0, 0));
+while let Some((a, c)) = queue.pop_front() {
+    let s = if c == 0 { &mut (s.0) } else { &mut (s.1) };
+    if s.contains(&a) {
+        continue;
+    }
+    s.insert(a);
+    for x in &v[a] {
+        queue.push_back((*x, 1 - c));
+    }
+}
+```
+
 
 ## 頂点倍化 + Disjoint Set
 
@@ -141,7 +161,10 @@ cargo-compete でテスト・提出している人向けです。
 # 実装例
 
 ## 二部グラフ / DFS
-https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/026_bipartite_set.rs
+https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/026_bipartite_set_dfs.rs
+
+## 二部グラフ / BFS
+https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/026_bipartite_set_bfs.rs
 
 ## 二部グラフ / 頂点倍化 + Disjoint Set
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/026_bipartite_dsu.rs
