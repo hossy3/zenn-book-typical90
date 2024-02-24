@@ -24,7 +24,7 @@ title: "002 - Encyclopedia of Parentheses（★3）"
 
 n個の数字から n/2個を選ぶ組み合わせは、`itertools::combinations()` を次のように呼ぶとすべて求まります。
 
-[Itertools in itertools \- Rust > combinations()](https://docs.rs/itertools/latest/itertools/trait.Itertools.html#method.combinations)
+* [Itertools in itertools \- Rust > combinations()](https://docs.rs/itertools/latest/itertools/trait.Itertools.html#method.combinations)
 
 ```rust
     for v in (0..n).combinations(n / 2) {
