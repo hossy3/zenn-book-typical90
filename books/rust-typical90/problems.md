@@ -36,10 +36,10 @@ title: "問題一覧"
 |[028 - Cluttered Paper（★4）](./typical90_028)|二次元いもす法||
 |[029 - Long Bricks（★5）](./typical90_029)|遅延セグメント木, `BTreeMap`||
 |[030 - K Factors（★5）](./typical90_030)|素因数列挙|`Vec<u8>` メモリを減らす|
-|031 - VS AtCoder（★6）|||
-|032 - AtCoder Ekiden（★3）|||
-|033 - Not Too Bright（★2）|||
-|034 - There are few types of elements（★4）|||
+|[031 - VS AtCoder（★6）](./typical90_031)|Grundy 数||
+|[032 - AtCoder Ekiden（★3）](./typical90_032)|順列, `permutations()`, 再帰||
+|[033 - Not Too Bright（★2）](./typical90_033)|コーナーケース||
+|[034 - There are few types of elements（★4）](./typical90_034)|尺取り法|尺取り法 iter|
 |035 - Preserve Connectivity（★7）|||
 |036 - Max Manhattan Distance（★5）|||
 |037 - Don't Leave the Spice（★5）|||
