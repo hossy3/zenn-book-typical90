@@ -97,5 +97,8 @@ let score = (0..n).fold(0f64, |acc, i| acc.max(f(i, &xy)));
 ## 尺取り法
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/009_two_pointer.rs
 
+## 尺取り法 / iterator
+https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/009_two_pointer_iter.rs
+
 ## 二分探索 (Vec::partition_point())
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/009_partition_point.rs
