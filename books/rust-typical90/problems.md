@@ -40,7 +40,7 @@ title: "問題一覧"
 |[032 - AtCoder Ekiden（★3）](./typical90_032)|順列, `permutations()`, 再帰||
 |[033 - Not Too Bright（★2）](./typical90_033)|コーナーケース||
 |[034 - There are few types of elements（★4）](./typical90_034)|尺取り法|尺取り法 iter|
-|035 - Preserve Connectivity（★7）|||
+|[035 - Preserve Connectivity（★7）](./typical90_035)|オイラーツアー, ダブリング||
 |036 - Max Manhattan Distance（★5）|||
 |037 - Don't Leave the Spice（★5）|||
 |038 - Large LCM（★3）|||
