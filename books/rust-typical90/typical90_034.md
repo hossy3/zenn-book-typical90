@@ -130,6 +130,8 @@ impl TwoPointerOps for TwoPointer {
 
 使いやすい尺取り法ライブラリを書くなら、それだけで記事一本分になりそうです。欲しいです。
 
+(2024/04/16 追記) 尺取り法ライブラリの記事を書きました。
+https://qiita.com/hossie/items/eb426ca5c2dd5de2173b
 
 # 実装例
 
