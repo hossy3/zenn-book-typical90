@@ -44,10 +44,10 @@ title: "問題一覧"
 |[036 - Max Manhattan Distance（★5）](./typical90_036)|マンハッタン距離, bounding box||
 |[037 - Don't Leave the Spice（★5）](./typical90_037)|スライド最小値, セグメント木|`assert!`|
 |[038 - Large LCM（★3）](./typical90_038)|`u128`, LCM, GCD||
-|039 - Tree Distance（★5）|||
-|040 - Get More Money（★7）|||
-|041 - Piles in AtCoder Farm（★7）|||
-|042 - Multiple of 9（★4）|||
+|[039 - Tree Distance（★5）](./typical90_039)|主客転倒, DFS||
+|[040 - Get More Money（★7）](./typical90_040)|燃やす埋める問題, 最大流, 最小カット||
+|[041 - Piles in AtCoder Farm（★7）](./typical90_041)|凸包, 多角形の面積, ピックの定理, `floor-sum`||
+|042 - Multiple of 9（★4）|DP, 9 の倍数||
 |043 - Maze Challenge with Lack of Sleep（★4）|||
 |044 - Shift and Swapping（★3）|||
 |045 - Simple Grouping（★6）|||
