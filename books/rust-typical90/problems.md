@@ -47,10 +47,10 @@ title: "問題一覧"
 |[039 - Tree Distance（★5）](./typical90_039)|主客転倒, DFS||
 |[040 - Get More Money（★7）](./typical90_040)|燃やす埋める問題, 最大流, 最小カット||
 |[041 - Piles in AtCoder Farm（★7）](./typical90_041)|凸包, 多角形の面積, ピックの定理, `floor-sum`||
-|042 - Multiple of 9（★4）|DP, 9 の倍数||
-|043 - Maze Challenge with Lack of Sleep（★4）|||
-|044 - Shift and Swapping（★3）|||
-|045 - Simple Grouping（★6）|||
+|[042 - Multiple of 9（★4）](./typical90_042)|配るDP, 9 の倍数||
+|[043 - Maze Challenge with Lack of Sleep（★4）](./typical90_043)|3次元状態, dijkstra, 01-BFS, `pathfinding`|上下左右を辿る, rc/ij/xy|
+|[044 - Shift and Swapping（★3）](./typical90_044)|`VecDeque`, オフセット||
+|[045 - Simple Grouping（★6）](./typical90_045)|距離の二乗, bit-DP, 部分集合列挙||
 |046 - I Love 46（★3）|||
 |047 - Monochromatic Diagonal（★7）|||
 |048 - I will not drop out（★3）|||
