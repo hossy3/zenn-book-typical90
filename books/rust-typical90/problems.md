@@ -51,9 +51,9 @@ title: "問題一覧"
 |[043 - Maze Challenge with Lack of Sleep（★4）](./typical90_043)|3次元状態, dijkstra, 01-BFS, `pathfinding`|上下左右を辿る, rc/ij/xy|
 |[044 - Shift and Swapping（★3）](./typical90_044)|`VecDeque`, オフセット||
 |[045 - Simple Grouping（★6）](./typical90_045)|距離の二乗, bit-DP, 部分集合列挙||
-|046 - I Love 46（★3）|||
-|047 - Monochromatic Diagonal（★7）|||
-|048 - I will not drop out（★3）|||
+|[046 - I Love 46（★3）](./typical90_046)|同じ余りをまとめる||
+|[047 - Monochromatic Diagonal（★7）](./typical90_047)|前処理, Z-algorithm, Rolling-hash||
+|[048 - I will not drop out（★3）](./typical90_048)|貪欲||
 |049 - Flip Digits 2（★6）|||
 |050 - Stair Jump（★3）|||
 |051 - Typical Shop（★5）|||
