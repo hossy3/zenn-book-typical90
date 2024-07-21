@@ -54,9 +54,9 @@ title: "問題一覧"
 |[046 - I Love 46（★3）](./typical90_046)|同じ余りをまとめる||
 |[047 - Monochromatic Diagonal（★7）](./typical90_047)|前処理, Z-algorithm, Rolling-hash||
 |[048 - I will not drop out（★3）](./typical90_048)|貪欲||
-|049 - Flip Digits 2（★6）|||
-|050 - Stair Jump（★3）|||
-|051 - Typical Shop（★5）|||
+|[049 - Flip Digits 2（★6）](./typical90_049)|Kruskal, Disjoint Set (Union Find), `pathfinding`||
+|[050 - Stair Jump（★3）](./typical90_050)|配るDP, 貰うDP|DPでの所有権|
+|[051 - Typical Shop（★5）](./typical90_051)|半分全列挙, bit全探索, `partition_point()`||
 |052 - Dice Product（★3）|||
 |053 - Discrete Dowsing（★7）|||
 |054 - Takahashi Number（★6）|||
