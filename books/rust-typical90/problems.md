@@ -57,10 +57,10 @@ title: "問題一覧"
 |[049 - Flip Digits 2（★6）](./typical90_049)|Kruskal, Disjoint Set (Union Find), `pathfinding`||
 |[050 - Stair Jump（★3）](./typical90_050)|配るDP, 貰うDP|DPでの所有権|
 |[051 - Typical Shop（★5）](./typical90_051)|半分全列挙, bit全探索, `partition_point()`||
-|052 - Dice Product（★3）|||
-|053 - Discrete Dowsing（★7）|||
-|054 - Takahashi Number（★6）|||
-|055 - Select 5（★2）|||
+|[052 - Dice Product（★3）](./typical90_052)|計算式をまとめる, `sum()`, `product()`, `fold()`, `modint`|`sum()` と `product()` の型指定|
+|[053 - Discrete Dowsing（★7）](./typical90_053)|インタラクティブ問題, フィボナッチ数列, メモ化|インタラクティブ問題の単体テスト|
+|[054 - Takahashi Number（★6）](./typical90_054)|超頂点, dijkstra, `pathfinding`||
+|[055 - Select 5（★2）](./typical90_055)|全探索, 多重ループ, 再帰, 組み合わせ||
 |056 - Lucky Bag（★5）|||
 |057 - Flip Flap（★6）|||
 |058 - Original Calculator（★4）|||
