@@ -42,7 +42,9 @@ title: "052 - Dice Product（★3）"
 
 * [Iterator in std::iter \- Rust > product()](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.product)
 
-また、配列の積は  $\Pi b_i$ は `Iterator::product()` で行えます。しかし b を複数かけ合わせると 64bit 整数型の範囲を超えます。そこで `fold()` や `reduce()` で掛け算するたびに余りを求めます。
+また、配列の積は  $\Pi b_i$ は `Iterator::product()` で行えます。しかし b を複数かけ合わせると 64bit 整数型の範囲を超えます。そこで、一般的な畳み込み演算 [^1] `fold()` や `reduce()` を使い、掛け算するたびに余りを求めます。
+
+[^1]: 競技プログラミングの文脈で畳み込みと言うと convolution 側を指しそうです。 `fold()` も畳み込みです。
 
 ```rust
 const MOD: usize = 1_000_000_007;
