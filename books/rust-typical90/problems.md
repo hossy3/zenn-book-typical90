@@ -61,8 +61,8 @@ title: "問題一覧"
 |[053 - Discrete Dowsing（★7）](./typical90_053)|インタラクティブ問題, フィボナッチ数列, メモ化|インタラクティブ問題の単体テスト|
 |[054 - Takahashi Number（★6）](./typical90_054)|超頂点, dijkstra, `pathfinding`||
 |[055 - Select 5（★2）](./typical90_055)|全探索, 多重ループ, 再帰, 組み合わせ||
-|056 - Lucky Bag（★5）|||
-|057 - Flip Flap（★6）|||
+|[056 - Lucky Bag（★5）](./typical90_056)|DP, 経路復元||
+|[057 - Flip Flap（★6）](./typical90_057)|掃き出し法||
 |058 - Original Calculator（★4）|||
 |059 - Many Graph Queries（★7）|||
 |060 - Chimera（★5）|||
