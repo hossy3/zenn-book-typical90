@@ -97,7 +97,7 @@ graph LR;
 AB の組が最大 10万個、XY の組も最大 10万個あると、けっこう大変です。
 
 
-## 1つずつ調べる
+## 1つずつ調べる (TLE)
 
 頂点2 から 頂点6 に進めるかを、(X, Y) を順に辿って考えます。
 
@@ -252,6 +252,9 @@ fn main() {
 
 
 # 実装例
+
+## 1つずつ調べる (TLE)
+https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/059_per_query_tle.rs
 
 ## 64並列で調べる
 https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/059_per_64_queries.rs
