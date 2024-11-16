@@ -63,8 +63,8 @@ title: "問題一覧"
 |[055 - Select 5（★2）](./typical90_055)|全探索, 多重ループ, 再帰, 組み合わせ||
 |[056 - Lucky Bag（★5）](./typical90_056)|DP, 経路復元||
 |[057 - Flip Flap（★6）](./typical90_057)|掃き出し法||
-|058 - Original Calculator（★4）|||
-|059 - Many Graph Queries（★7）|||
+|[058 - Original Calculator（★4）](./typical90_058)|周期性||
+|[059 - Many Graph Queries（★7）](./typical90_059)|並列処理||
 |060 - Chimera（★5）|||
 |061 - Deck（★2）|||
 |062 - Paint All（★6）|||
