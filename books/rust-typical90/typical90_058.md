@@ -115,29 +115,23 @@ n=1, k=123 のとき、このように動きます:
 ## 各桁の数の合計
 
 ```rust
-const N: usize = 100_000;
-
 fn f(x: usize) -> usize {
-    let y = (x % 10) + ((x / 10) % 10) + ((x / 100) % 10) + ((x / 1000) % 10) + ((x / 10000) % 10);
-    (x + y) % N
+    (x % 10) + ((x / 10) % 10) + ((x / 100) % 10) + ((x / 1000) % 10) + ((x / 10000) % 10)
 }
 ```
 
-とか
+や
 
 ```rust
-const N: usize = 100_000;
-
 fn f(x: usize) -> usize {
-    let y: usize = (0..6).map(|k| (x / 10_usize.pow(k)) % 10).sum();
-    (x + y) % N
+    (0..5).map(|k| (x / 10_usize.pow(k)) % 10).sum::<usize>()
 }
 ```
 
-とかで求まります。
+のようにすることで求まります。
 
 
 # 実装例
 
 ## 周期性
-https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/058_cycle_2
+https://github.com/hossy3/atcoder-solutions/blob/main/atcoder/typical90/src/bin/058_cycle_2.rs
