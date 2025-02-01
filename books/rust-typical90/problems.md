@@ -65,8 +65,8 @@ title: "問題一覧"
 |[057 - Flip Flap（★6）](./typical90_057)|掃き出し法||
 |[058 - Original Calculator（★4）](./typical90_058)|周期性||
 |[059 - Many Graph Queries（★7）](./typical90_059)|並列処理||
-|060 - Chimera（★5）|||
-|061 - Deck（★2）|||
+|[060 - Chimera（★5）](./typical90_060)|LIS||
+|[061 - Deck（★2）](./typical90_061)|`VecDeque`||
 |062 - Paint All（★6）|||
 |063 - Monochromatic Subgrid（★4）|||
 |064 - Uplift（★3）|||
