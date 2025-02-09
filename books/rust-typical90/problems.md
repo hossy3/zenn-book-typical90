@@ -67,8 +67,8 @@ title: "問題一覧"
 |[059 - Many Graph Queries（★7）](./typical90_059)|並列処理||
 |[060 - Chimera（★5）](./typical90_060)|LIS||
 |[061 - Deck（★2）](./typical90_061)|`VecDeque`||
-|062 - Paint All（★6）|||
-|063 - Monochromatic Subgrid（★4）|||
+|[062 - Paint All（★6）](./typical90_062)|後ろから考える, 有向グラフ|複数解のテスト|
+|[063 - Monochromatic Subgrid（★4）](./typical90_063)|全探索|2次元配列の転置, `Option`|
 |064 - Uplift（★3）|||
 |065 - RGB Balls 2（★7）|||
 |066 - Various Arrays（★5）|||
