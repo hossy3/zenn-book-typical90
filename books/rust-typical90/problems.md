@@ -69,8 +69,8 @@ title: "問題一覧"
 |[061 - Deck（★2）](./typical90_061)|`VecDeque`||
 |[062 - Paint All（★6）](./typical90_062)|後ろから考える, 有向グラフ|複数解のテスト|
 |[063 - Monochromatic Subgrid（★4）](./typical90_063)|全探索|2次元配列の転置, `Option`|
-|064 - Uplift（★3）|||
-|065 - RGB Balls 2（★7）|||
+|[064 - Uplift（★3）](./typical90_064)|階差, セグメント木||
+|[065 - RGB Balls 2（★7）](./typical90_065)|組み合わせ, 畳み込み||
 |066 - Various Arrays（★5）|||
 |067 - Base 8 to 9（★2）|||
 |068 - Paired Information（★5）|||
